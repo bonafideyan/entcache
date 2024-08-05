@@ -2,6 +2,8 @@ module ariga.io/entcache
 
 go 1.19
 
+replace entgo.io/ent => ../ent
+
 require (
 	entgo.io/ent v0.11.2-0.20220805114204-0066eb986dd3
 	github.com/golang/groupcache v0.0.0-20210331224755-41bb18bfe9da
